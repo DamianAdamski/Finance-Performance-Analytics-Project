@@ -1,0 +1,17 @@
+Findings from the data profiling:
+1. The dataset has no missing values
+2. All id are strings 
+3. 
+DATASET SHAPES
+customers: 50000 rows, 7 columns
+accounts: 75000 rows, 5 columns
+cards: 100000 rows, 4 columns
+loans: 30000 rows, 5 columns
+branches: 500 rows, 3 columns
+merchants: 5000 rows, 3 columns
+4. It has no duplicated rows
+5.It has no duplicated primary IDs
+6. It has no Orphan Records meaning correct relationships between datasets
+7.There are DUPLICATE EMAILS in customers: 4227 duplicate values in email
+All the emails have @example. - which is likely the reason for the duplicates. The rows will not be removed 
+due to them still having unique customers IDs 

@@ -1,0 +1,6 @@
+-- Import all the files from Raw Data to the database
+-- Go to Databases > banking_project > Schemas > public > Tables 
+--Right click on the table name > Import/Export Data > Select the file from Raw Data folder
+-- In settings set Format: csv, Encoding: UTF-8, Header: Yes, Delimiter: Comma
+-- Double check the columns and data types are correct, then click OK to import the data.
+-- Repeat for all of the csv files in the Raw Data folder.

@@ -1,0 +1,20 @@
+# Environment variables and passwords
+.env
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# VS Code local settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
+~$*
+
+# Operating system files
+.DS_Store
+Thumbs.db
